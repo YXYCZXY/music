@@ -1,18 +1,13 @@
 <template>
     <footer class="main-footer">
-        <a href="https://github.com/YXYCZXY">
-        <img style="position: absolute; top: 0; right: 0; border: 0;"
-        src="//bbsmax.ikafan.com/static/L3Byb3h5L2h0dHAvaW1hZ2VzMjAxNS5jbmJsb2dzLmNvbS9ibG9nLzY4MjY2MS8yMDE2MTIvNjgyNjYxLTIwMTYxMjEwMjIzNjUzMTc5LTE4NzA3Mjk0MDEucG5n.jpg"
-        alt="Fork me on GitHub" >
-        </a>
-          <a>{{msg}}</a>
+          <a style="font-size:32px">{{msg}}</a>
     </footer>
 </template>
 <script>
 export default {
     data () {
         return {
-            msg:'出品'
+            msg:'或许是不知梦的原因   琉璃之人追逐幻影'
         }
     }
 
@@ -21,8 +16,15 @@ export default {
 <style lang="stylus" scoped>
 .main-footer
     margin-top 40px
-    text-align center
+    position absolute
+    top 384px
+    left 28.8%
     a 
-        color red
-        font-size 20px
+    font-size 82px
+    background  linear-gradient(to bottom right, #FDD700, #70d12f)
+    zoom 1
+    margin 0 0 42px
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index 99
 </style>
